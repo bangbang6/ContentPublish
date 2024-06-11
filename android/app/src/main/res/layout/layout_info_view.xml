@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="10dp">
+    <ImageView
+        android:id="@+id/img_edit"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/rn_edit_text_material"
+        >
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        >
+        <TextView
+            android:id="@+id/text_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:text="梦晚"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_desc"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="我做RN三年半了,是一个多方面的前端工程师"
+
+            android:layout_marginTop="6dp"
+
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="切换形状"
+
+
+            android:layout_marginTop="6dp"
+
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

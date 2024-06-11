@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+   <cn.bingoogolapple.qrcode.zxing.ZXingView
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ScanActivity"
+       android:id="@+id/zXingView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:qrcv_topOffset="120dp"
+       app:qrcv_borderColor="#00ff00"
+       app:qrcv_borderSize="1dp"
+       app:qrcv_cornerColor="#ffff00"
+       app:qrcv_cornerSize="3dp"
+       app:qrcv_cornerLength="24dp"
+       app:qrcv_maskColor="#50000000"
+       app:qrcv_rectWidth="220dp"
+       app:qrcv_scanLineColor="#A0ff0000"
+       app:qrcv_scanLineSize="1dp"
+      app:qrcv_qrCodeTipText="请将二维码安抚放在框中"
+       ></cn.bingoogolapple.qrcode.zxing.ZXingView>
